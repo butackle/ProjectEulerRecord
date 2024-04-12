@@ -2,6 +2,12 @@
 
 https://github.com/butackle/ProjectEulerRecord
 
-## About
+## questions
 
 https://projecteuler.net/
+
+## command
+
+```shell
+deno run xxx.ts
+```
