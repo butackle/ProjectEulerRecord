@@ -14,5 +14,12 @@
     "strict": true,
     "target": "esnext",
     "useDefineForClassFields": true
-  }
+  },
+  "include": [
+    "./*.ts",
+    "./*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
