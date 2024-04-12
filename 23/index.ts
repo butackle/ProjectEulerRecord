@@ -9,3 +9,4 @@ const limit: number = 28123;
 const abundantNumbers = findAbundantNumbers(limit);
 
 console.log(calcImpossibleSum(abundantNumbers, limit))
+// answer: 4179871
