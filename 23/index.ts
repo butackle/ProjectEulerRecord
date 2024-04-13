@@ -1,7 +1,7 @@
 // @ts-ignore
 import {findAbundantNumbers, findDivisorDataList} from './findAbundantNumbers.ts';
 // @ts-ignore
-import {calcImpossibleSum, competeAbundantNumbers} from './competeAbundantNumbers.ts';
+import {competeAbundantNumbers} from './competeAbundantNumbers.ts';
 
 const limit: number = 28123; // if 25, answer is 301?
 const timeLabel = 'Non-Abundant-Sums'
