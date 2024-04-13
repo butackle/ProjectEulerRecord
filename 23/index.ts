@@ -18,8 +18,7 @@ console.timeLog(timeLabel, 'abundantNumbers found')
 const result = calcImpossibleSum(abundantNumbers, limit);
 
 // console.log({abundantNumbers});
-console.table({limit, result})
-// answer: 4179871
+console.table({limit, result, answer: 4179871})
 
 console.timeEnd(timeLabel);
 // Non-Abundant-Sums: 24553ms
