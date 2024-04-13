@@ -23,4 +23,4 @@ console.table({limit, result})
 
 console.timeEnd(timeLabel);
 // Non-Abundant-Sums: 24553ms
-// Non-Abundant-Sums: 208736ms
+// Non-Abundant-Sums: 208736ms　効率化してない時
