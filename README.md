@@ -9,7 +9,6 @@ https://projecteuler.net/
 ## command
 
 ```shell
-deno run  xxx.ts
-# 
-deno run  --unstable-sloppy-imports xxx.ts
+deno run <folder_number>/index.ts
+# deno run  --unstable-sloppy-imports xxx.ts
 ```
