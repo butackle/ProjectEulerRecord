@@ -1,13 +1,18 @@
 // @ts-ignore
-import {findAbundantNumbers} from './findAbundantNumbers.ts';
+import {findAbundantNumbers, findDivisorDataList} from './findAbundantNumbers.ts';
 // @ts-ignore
 import {calcImpossibleSum} from './calcImpossibleSum.ts';
 
-const limit: number = 28123;
+const limit: number = 28123; // if 25, answer is 301?
 
 // 過剰数のリストを取得
 const abundantNumbers = findAbundantNumbers(limit);
 
+//const list = findDivisorDataList(limit);
+//console.log({list});
+
 const result = calcImpossibleSum(abundantNumbers, limit);
-console.table({result})
+
+// console.log({abundantNumbers});
+console.table({limit, result})
 // answer: 4179871
