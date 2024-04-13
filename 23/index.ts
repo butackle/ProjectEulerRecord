@@ -8,5 +8,6 @@ const limit: number = 28123;
 // 過剰数のリストを取得
 const abundantNumbers = findAbundantNumbers(limit);
 
-console.log(calcImpossibleSum(abundantNumbers, limit))
+const result = calcImpossibleSum(abundantNumbers, limit);
+console.table({result})
 // answer: 4179871
