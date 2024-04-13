@@ -4,6 +4,7 @@ export const calcImpossibleSum = (abundantNumbers: number[], limit: number): num
   for (let targetNumber = 0; targetNumber <= limit; targetNumber++) {
     // console.clear();
     // console.log({targetNumber});
+    // console.timeLog('Non-Abundant-Sums', `targetNumber is ${targetNumber}`)
 
     if (targetNumber < abundantNumbers[0] * 2) {
       sum += targetNumber;
