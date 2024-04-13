@@ -3,7 +3,7 @@ import {findAbundantNumbers, findDivisorDataList} from './findAbundantNumbers.ts
 // @ts-ignore
 import {competeAbundantNumbers} from './competeAbundantNumbers.ts';
 
-const limit: number = 28123; // if 25, answer is 301?
+const limit: number = 28123;
 const timeLabel = 'Non-Abundant-Sums'
 
 console.time(timeLabel);
