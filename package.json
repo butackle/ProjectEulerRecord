@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "description": "Documented challenges to ProjectEuler",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butackle/ProjectEulerRecord.git"
+  },
+  "author": "https://github.com/butackle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butackle/ProjectEulerRecord/issues"
+  },
+  "homepage": "https://github.com/butackle/ProjectEulerRecord#readme"
+}
