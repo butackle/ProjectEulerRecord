@@ -1,6 +1,4 @@
-// @ts-ignore
-import {findAbundantNumbers, findDivisorDataList} from './findAbundantNumbers.ts';
-// @ts-ignore
+import {findAbundantNumbers} from './findAbundantNumbers.ts';
 import {competeAbundantNumbers} from './competeAbundantNumbers.ts';
 
 const limit: number = 28123;
